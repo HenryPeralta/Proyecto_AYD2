@@ -72,6 +72,29 @@
 | **Contratar Asistentes**                 |              |                 |                | X                   | X                    |                              |                        |                             |                  |
 | **Dar de Baja a Asistentes**             |              |                 |                | X                   | X                    |                              |                        |                             |                  |
 
+# MATRIZ DE TRAZABILIDAD DE STAKEHOLDERS vs CDU.
+
+# Matriz de Trazabilidad: Stakeholders vs Casos de Uso
+
+| **Casos de Uso / Stakeholders** | **Usuarios** | **Conductores** | **Asistentes** | **Administradores** | **Desarrolladores** | **Equipo de Soporte Técnico** | **Equipo de Marketing** | **Proveedores de Servicios** | **Reguladores** |
+|--------------------------------|--------------|-----------------|----------------|----------------------|----------------------|------------------------------|------------------------|------------------------------|-----------------|
+| **Inicio de Sesión**            | X            | X               |                | X                    | X                    | X                            |                        |                              |                 |
+| **Envío de Mensajes**           | X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Recepción de Mensajes**       | X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Solicitar Viaje**             | X            |                 |                |                      | X                    | X                            |                        |                              |                 |
+| **Gestionar Viajes**            |              | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Realizar Pagos**              | X            |                 |                |                      | X                    | X                            |                        | X                            |                 |
+| **Calificaciones y Comentarios**| X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Registrar Conductores**       |              |                 | X              |                      | X                    |                              |                        |                              |                 |
+| **Revisar CVs**                 |              |                 | X              |                      |                      |                              |                        |                              |                 |
+| **Administrar Plataforma**      |              |                 |                | X                    | X                    |                              |                        |                              | X               |
+| **Mantenimiento de Software**   |              |                 |                |                      | X                    |                              |                        |                              |                 |
+| **Gestión de Incidencias**      | X            | X               |                |                      |                      | X                            |                        |                              |                 |
+| **Promoción y Comunicación**    |              |                 |                |                      |                      |                              | X                      |                              |                 |
+| **Servicios de Infraestructura**|              |                 |                |                      |                      |                              |                        | X                            |                 |
+| **Cumplimiento de Regulaciones**|              |                 |                |                      |                      |                              |                        |                              | X               |
+
+
 # DIAGRAMA DE DESPLIEGUE
 
 ![Diagrama de Despliegue](/Diagramas/Diagrama%20de%20Despliegue.png)

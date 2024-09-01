@@ -74,8 +74,6 @@
 
 # MATRIZ DE TRAZABILIDAD DE STAKEHOLDERS vs CDU.
 
-# Matriz de Trazabilidad: Stakeholders vs Casos de Uso
-
 | **Casos de Uso / Stakeholders** | **Usuarios** | **Conductores** | **Asistentes** | **Administradores** | **Desarrolladores** | **Equipo de Soporte Técnico** | **Equipo de Marketing** | **Proveedores de Servicios** | **Reguladores** |
 |--------------------------------|--------------|-----------------|----------------|----------------------|----------------------|------------------------------|------------------------|------------------------------|-----------------|
 | **Inicio de Sesión**            | X            | X               |                | X                    | X                    | X                            |                        |                              |                 |

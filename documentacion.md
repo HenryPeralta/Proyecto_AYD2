@@ -134,23 +134,29 @@
 
 La arquitectura seleccionada es una arquitectura de n niveles (también conocida como arquitectura de capas o "multi-tier architecture"), específicamente una arquitectura de 3 niveles. Los tres niveles principales en esta arquitectura son:
 
-**Nivel de Presentación (Frontend):**
+## 1. Nivel de Presentación (Frontend)
 
 Compuesto por los servidores web que manejan la interacción con el usuario a través de la interfaz web (en este caso, utilizando React). Estos servidores reciben las solicitudes de los clientes y envían las respuestas de vuelta después de que se hayan procesado.
 
-**Nivel de Lógica de Negocio (Backend):**
+## 2. Nivel de Lógica de Negocio (Backend)
 
 Representado por los servidores backend que ejecutan Node.js. Este nivel maneja la lógica de la aplicación, procesando las reglas de negocio y controlando el flujo de la información entre la capa de presentación y la capa de datos.
 
-**Nivel de Datos:**
+## 3. Nivel de Datos
 
 Compuesto por el servidor de base de datos MySQL y el almacenamiento en AWS S3. Esta capa se encarga de gestionar y almacenar los datos que utiliza la aplicación, así como de recuperar y actualizar la información según las necesidades de la aplicación.
 
-JUSTIFICACIÓN de la Arquitectura de n-CAPAS:
+# Justificación de la Arquitectura de n Capas
 
-**Escalabilidad:** Cada nivel se puede escalar de manera independiente según las necesidades de la aplicación, lo que permite gestionar mejor el crecimiento del tráfico y los volúmenes de datos.
+### 1. Escalabilidad
 
-**Mantenibilidad:** Separar la aplicación en capas distintas facilita el mantenimiento y la actualización del sistema, ya que se puede modificar un nivel sin afectar significativamente a los otros.
+Cada nivel se puede escalar de manera independiente según las necesidades de la aplicación, lo que permite gestionar mejor el crecimiento del tráfico y los volúmenes de datos.
 
-**Seguridad:** Al tener diferentes capas, es posible implementar políticas de seguridad específicas para cada nivel, protegiendo los datos y el acceso según corresponda.
+### 2. Mantenibilidad
+
+Separar la aplicación en capas distintas facilita el mantenimiento y la actualización del sistema, ya que se puede modificar un nivel sin afectar significativamente a los otros.
+
+### 3. Seguridad
+
+Al tener diferentes capas, es posible implementar políticas de seguridad específicas para cada nivel, protegiendo los datos y el acceso según corresponda.
 

@@ -72,7 +72,95 @@
 | **Contratar Asistentes**                 |              |                 |                | X                   | X                    |                              |                        |                             |                  |
 | **Dar de Baja a Asistentes**             |              |                 |                | X                   | X                    |                              |                        |                             |                  |
 
+# MATRIZ DE TRAZABILIDAD DE STAKEHOLDERS vs CDU.
+
+| **Casos de Uso / Stakeholders** | **Usuarios** | **Conductores** | **Asistentes** | **Administradores** | **Desarrolladores** | **Equipo de Soporte Técnico** | **Equipo de Marketing** | **Proveedores de Servicios** | **Reguladores** |
+|--------------------------------|--------------|-----------------|----------------|----------------------|----------------------|------------------------------|------------------------|------------------------------|-----------------|
+| **Inicio de Sesión**            | X            | X               |                | X                    | X                    | X                            |                        |                              |                 |
+| **Envío de Mensajes**           | X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Recepción de Mensajes**       | X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Solicitar Viaje**             | X            |                 |                |                      | X                    | X                            |                        |                              |                 |
+| **Gestionar Viajes**            |              | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Realizar Pagos**              | X            |                 |                |                      | X                    | X                            |                        | X                            |                 |
+| **Calificaciones y Comentarios**| X            | X               |                |                      | X                    | X                            |                        |                              |                 |
+| **Registrar Conductores**       |              |                 | X              |                      | X                    |                              |                        |                              |                 |
+| **Revisar CVs**                 |              |                 | X              |                      |                      |                              |                        |                              |                 |
+| **Administrar Plataforma**      |              |                 |                | X                    | X                    |                              |                        |                              | X               |
+| **Mantenimiento de Software**   |              |                 |                |                      | X                    |                              |                        |                              |                 |
+| **Gestión de Incidencias**      | X            | X               |                |                      |                      | X                            |                        |                              |                 |
+| **Promoción y Comunicación**    |              |                 |                |                      |                      |                              | X                      |                              |                 |
+| **Servicios de Infraestructura**|              |                 |                |                      |                      |                              |                        | X                            |                 |
+| **Cumplimiento de Regulaciones**|              |                 |                |                      |                      |                              |                        |                              | X               |
+
+# MATRIZ DE TRAZABILIDAD: REQUERIMIENTOS FUNCIONALES vs CASOS DE USO.
+
+| **Requerimiento Funcional / Caso de Uso** | **Registro de Usuario** | **Registro de Conductor** | **Registro de Asistente** | **Inicio de Sesión** | **Recuperación de Contraseña** | **Actualización de Información Personal** | **Solicitud de Viaje** | **Gestión de Viajes** | **Calificación y Comentarios** | **Gestión de Conductores** | **Seguridad de Datos** |
+|-------------------------------------------|-------------------------|---------------------------|---------------------------|----------------------|-------------------------------|------------------------------------------|-------------------------|-----------------------|------------------------------|---------------------------|-------------------------|
+| **RF-001**                               | X                       |                           |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-002**                               | X                       |                           |                           |                      |                               | X                                        |                         |                       |                              |                           |                         |
+| **RF-003**                               | X                       |                           |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-004**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-005**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-006**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              | X                         |                         |
+| **RF-007**                               |                         |                           | X                         |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-008**                               |                         |                           | X                         |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-009**                               | X                       | X                         | X                         | X                    |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-010**                               | X                       | X                         | X                         |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-011**                               | X                       | X                         | X                         | X                    | X                             |                                          |                         |                       |                              |                           |                         |
+| **RF-012**                               |                         |                           |                           | X                    |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-013**                               | X                       |                           |                           |                      |                               | X                                        |                         |                       |                              |                           |                         |
+| **RF-014**                               |                         | X                         |                           |                      |                               | X                                        |                         |                       |                              |                           |                         |
+| **RF-015**                               |                         |                           |                           |                      |                               |                                          | X                       |                       |                              |                           |                         |
+| **RF-016**                               |                         |                           |                           |                      |                               |                                          | X                       |                       |                              |                           |                         |
+| **RF-017**                               |                         |                           |                           |                      |                               |                                          | X                       |                       |                              |                           |                         |
+| **RF-018**                               | X                       | X                         |                           |                      |                               |                                          | X                       |                       |                              |                           |                         |
+| **RF-019**                               | X                       |                           |                           |                      |                               |                                          | X                       |                       |                              |                           |                         |
+| **RF-020**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+| **RF-021**                               | X                       |                           |                           |                      |                               |                                          |                         |                       | X                            |                           |                         |
+| **RF-022**                               |                         | X                         |                           |                      |                               |                                          |                         |                       | X                            |                           |                         |
+| **RF-023**                               | X                       | X                         |                           |                      |                               |                                          |                         |                       | X                            |                           |                         |
+| **RF-024**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              | X                         |                         |
+| **RF-025**                               |                         | X                         |                           |                      |                               |                                          |                         |                       |                              | X                         |                         |
+| **RF-026**                               |                         | X                         |                           |                      |                               |                                          |                         | X                     |                              |                           |                         |
+| **RF-027**                               | X                       | X                         | X                         | X                    |                               | X                                        |                         |                       |                              |                           | X                       |
+| **RF-028**                               | X                       |                           |                           |                      |                               |                                          |                         |                       |                              |                           |                         |
+
+
 # DIAGRAMA DE DESPLIEGUE
 
 ![Diagrama de Despliegue](/Diagramas/Diagrama%20de%20Despliegue.png)
+
+# ESTILO ARQUITECTONICO
+
+La arquitectura seleccionada es una arquitectura de n niveles (también conocida como arquitectura de capas o "multi-tier architecture"), específicamente una arquitectura de 3 niveles. Los tres niveles principales en esta arquitectura son:
+
+## 1. Nivel de Presentación (Frontend)
+
+Compuesto por los servidores web que manejan la interacción con el usuario a través de la interfaz web (en este caso, utilizando React). Estos servidores reciben las solicitudes de los clientes y envían las respuestas de vuelta después de que se hayan procesado.
+
+## 2. Nivel de Lógica de Negocio (Backend)
+
+Representado por los servidores backend que ejecutan Node.js. Este nivel maneja la lógica de la aplicación, procesando las reglas de negocio y controlando el flujo de la información entre la capa de presentación y la capa de datos.
+
+## 3. Nivel de Datos
+
+Compuesto por el servidor de base de datos MySQL y el almacenamiento en AWS S3. Esta capa se encarga de gestionar y almacenar los datos que utiliza la aplicación, así como de recuperar y actualizar la información según las necesidades de la aplicación.
+
+# Justificación de la Arquitectura de n Capas
+
+### 1. Escalabilidad
+
+Cada nivel se puede escalar de manera independiente según las necesidades de la aplicación, lo que permite gestionar mejor el crecimiento del tráfico y los volúmenes de datos.
+
+### 2. Mantenibilidad
+
+Separar la aplicación en capas distintas facilita el mantenimiento y la actualización del sistema, ya que se puede modificar un nivel sin afectar significativamente a los otros.
+
+### 3. Seguridad
+
+Al tener diferentes capas, es posible implementar políticas de seguridad específicas para cada nivel, protegiendo los datos y el acceso según corresponda.
+
+### Diagrama n-capas
+
+![Diagrama de Despliegue](/Diagramas/Diagrama%20capas.jpg)
 

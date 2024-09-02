@@ -160,3 +160,7 @@ Separar la aplicación en capas distintas facilita el mantenimiento y la actuali
 
 Al tener diferentes capas, es posible implementar políticas de seguridad específicas para cada nivel, protegiendo los datos y el acceso según corresponda.
 
+### Diagrama n-capas
+
+![Diagrama de Despliegue](/Diagramas/Diagrama%20capas.jpg)
+
